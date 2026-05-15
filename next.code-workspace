@@ -1,0 +1,53 @@
+{
+	"folders": [
+		{
+			"path": "01_HELLO_WORLD"
+		},
+		{
+			"path": "02_STATIC_DYNAMIC_ROUTING"
+		},
+		{
+			"path": "03_ROUTING_PROJECT"
+		},
+		{
+			"path": "04_NESTED_DYNAMIC_ROUTING"
+		},
+		{
+			"path": "05_GROUP_ROUTES_AND_PRIVATE_FOLDERS"
+		},
+		{
+			"path": "06_OPTIONAL_AND_CATCHALL_SEGMENT"
+		},
+		{
+			"path": "07_INTERCEPTING_ROUTES"
+		},
+		{
+			"path": "08_PARALLEL_ROUTES_AND_UNMATCHED_ROUTES"
+		},
+		{
+			"path": "09_CUSTOM_NOT_FOUND_PAGE"
+		},
+		{
+			"path": "10_SERVER_AND_CLIENT_COMPONENTS"
+		},
+		{
+			"path": "11_ROUTE_HANDLERS_GET_POST_PUT_PATCH_DELETE"
+		},
+		{
+			"path": "12_QUERY_PARAMS_NEXTJS"
+		},
+		{
+			"path": "13_REQ_RES_HEADERS_AND_COOKIES"
+		},
+		{
+			"path": "14_USE_PARAM_HOOK"
+		},
+		{
+			"path": "project-notes-app"
+		},
+		{
+			"path": "15_USE_PATHNAME_PARAMS_SEARCHPARAMS_ROUTER_HOOKS_AND_REDIRECT"
+		}
+	],
+	"settings": {}
+}
