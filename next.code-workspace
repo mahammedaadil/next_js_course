@@ -47,6 +47,12 @@
 		},
 		{
 			"path": "15_USE_PATHNAME_PARAMS_SEARCHPARAMS_ROUTER_HOOKS_AND_REDIRECT"
+		},
+		{
+			"path": "16_SERVER_ACTIONS"
+		},
+		{
+			"path": "17_FONTS_IN_NEXTJS"
 		}
 	],
 	"settings": {}
