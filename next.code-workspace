@@ -53,6 +53,9 @@
 		},
 		{
 			"path": "17_FONTS_IN_NEXTJS"
+		},
+		{
+			"path": "18_FORMS_IN_NEXTJS"
 		}
 	],
 	"settings": {}
