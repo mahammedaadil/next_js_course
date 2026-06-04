@@ -62,6 +62,9 @@
 		},
 		{
 			"path": "19_METADATA_AND_SEO"
+		},
+		{
+			"path": "20_TANSTACK_QUERY"
 		}
 	],
 	"settings": {}
