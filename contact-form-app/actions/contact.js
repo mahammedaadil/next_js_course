@@ -3,6 +3,7 @@
 import { dbConnect } from "@/lib/db";
 import Contact from "@/lib/models/Contact";
 import { redirect } from "next/navigation";
+import { revalidatePath } from "next/cache";
 
 export async function createContact(formData) {
   await dbConnect();
@@ -16,4 +17,14 @@ export async function createContact(formData) {
     message,
   });
   redirect("/dashboard");
+}
+
+export async function updateStatus(id) {
+  await dbConnect();
+
+  await Contact.findByIdAndUpdate(id, {
+    status: "resolved",
+  });
+
+  revalidatePath("/")
 }
