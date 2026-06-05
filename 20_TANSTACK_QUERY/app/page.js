@@ -24,14 +24,12 @@ export default function Home() {
   //   fetchApi();
   // }, []);
 
-
-  //less boiler plate with tanstack
+  //less broiler plate with tanstack
   const { data, isLoading, error } = useQuery({
     queryKey: ["data"],
-    queryFn: () =>
-      fetch("https://jsonplaceholder.typicode.com/posts").then((res) =>
-        res.json(),
-      ),
+    queryFn:()=> fetch("https://jsonplaceholder.typicode.com/posts").then((res) =>
+      res.json(),
+    ),
   });
 
   if (isLoading) {
@@ -44,7 +42,11 @@ export default function Home() {
 
   return (
     <div>
-      <h1>{JSON.stringify(data)}</h1>
+      {data.map((d) => (
+        <ol key={d.id}>
+          <li>{d.title}</li>
+        </ol>
+      ))}
     </div>
   );
 }
