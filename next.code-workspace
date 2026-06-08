@@ -65,6 +65,9 @@
 		},
 		{
 			"path": "20_TANSTACK_QUERY"
+		},
+		{
+			"path": "todos-tanstack"
 		}
 	],
 	"settings": {}
