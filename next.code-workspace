@@ -43,9 +43,6 @@
 			"path": "14_USE_PARAM_HOOK"
 		},
 		{
-			"path": "project-notes-app"
-		},
-		{
 			"path": "15_USE_PATHNAME_PARAMS_SEARCHPARAMS_ROUTER_HOOKS_AND_REDIRECT"
 		},
 		{
@@ -58,16 +55,10 @@
 			"path": "18_FORMS_IN_NEXTJS"
 		},
 		{
-			"path": "contact-form-app"
-		},
-		{
 			"path": "19_METADATA_AND_SEO"
 		},
 		{
 			"path": "20_TANSTACK_QUERY"
-		},
-		{
-			"path": "todos-tanstack"
 		}
 	],
 	"settings": {}
