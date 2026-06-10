@@ -59,6 +59,9 @@
 		},
 		{
 			"path": "20_TANSTACK_QUERY"
+		},
+		{
+			"path": "21_PRISMA_ORM_NEXTJS"
 		}
 	],
 	"settings": {}
